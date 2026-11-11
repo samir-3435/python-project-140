@@ -33,5 +33,6 @@ htmlcov/
 .DS_Store
 Thumbs.db
 
-# Inter local
+# Inter local y automatización
 ruff.toml
+Makefile

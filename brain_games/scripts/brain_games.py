@@ -1,6 +1,10 @@
-def main():
+from brain_games.cli import (
+    welcome_user,  # llamar la función desde el modulo cli
+)
 
-    print("Welcome to the Brain Games!")  # solo da un mensaje de bienvenida
+
+def main():
+    welcome_user()
 
 
 if __name__ == "__main__":
