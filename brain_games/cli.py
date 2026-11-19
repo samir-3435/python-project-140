@@ -9,3 +9,5 @@ def welcome_user():
 
     print(f"Hello, {name}!")  # saludar
 
+    return name
+
