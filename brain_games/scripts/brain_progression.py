@@ -1,6 +1,9 @@
-from brain_games.cli import welcome_user
 import random
+
 import prompt
+
+from brain_games.cli import welcome_user
+
 
 def progression(name):
     print("What number is missing in the progression?")
@@ -9,10 +12,10 @@ def progression(name):
 
     while contador_correctas < 3:
 
-        start = random.randint(1, 50) # para empezar la progresion
-        step = random.randint(1,50) # paso entre numero
-        length = 10 # cantidad de numeros de la progresion
-        hidden_index = random.randint(0, length - 1) # indice oculto 
+        start = random.randint(1, 50)  # para empezar la progresion
+        step = random.randint(1, 50)  # paso entre numero
+        length = 10  # cantidad de numeros de la progresion
+        hidden_index = random.randint(0, length - 1)  # indice oculto 
 
         progression = [start + i * step for i in range(length)]
 
@@ -20,7 +23,7 @@ def progression(name):
 
         progression[hidden_index] = ".."
 
-        question = " ".join(str(x) for x in progression) # lista a un texto separado por espacios para la pregunta
+        question = " ".join(str(x) for x in progression)  # lista a un texto separado por espacios para la pregunta
 
         print(f"Question: {question}")
         answer = prompt.string("Your answer: ")
@@ -35,9 +38,11 @@ def progression(name):
 
     print(f"Congratulations, {name}!")
 
+
 def main():
     name = welcome_user()
     progression(name)
+
 
 if __name__ == "__main__":
     main()

@@ -31,6 +31,8 @@ Pruebas para el juego "maximo comun divisor": https://asciinema.org/a/FXMsghvzYV
 
 Pruebas para el juego "progresión aritmética": https://asciinema.org/a/a3T4H3irzYkIuZWu
 
+Pruebas para el juego "numero primo": https://asciinema.org/a/K2sl40Wg7Oisg3Lc
+
 ---
 
 <details>
