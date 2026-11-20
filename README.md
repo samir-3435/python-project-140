@@ -23,9 +23,12 @@ cd python-project-140
 ## Uso
 
 <!-- Agregue ejemplos de ejecución y una grabación de asciinema: esto es lo que miran los empleadores -->
-Las pruebas para el juego "par o impar" se encuentran en el archivo brain_even_demonstration.cast
+Pruebas para el juego "par o impar": https://asciinema.org/a/GVIW794B1dHOk9Hx
 
-Las pruebas para el juego "calculadora se encuentran en el archivo brain_calc_demonstration.cast
+Pruebas para el juego "calculadora": https://asciinema.org/a/qQ9YnmZFU6lITwPs
+
+Pruebas para el juego "maximo comun divisor": https://asciinema.org/a/FXMsghvzYVbU90N8
+
 ---
 
 <details>
