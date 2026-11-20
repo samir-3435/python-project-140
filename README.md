@@ -29,6 +29,8 @@ Pruebas para el juego "calculadora": https://asciinema.org/a/qQ9YnmZFU6lITwPs
 
 Pruebas para el juego "maximo comun divisor": https://asciinema.org/a/FXMsghvzYVbU90N8
 
+Pruebas para el juego "progresión aritmética": https://asciinema.org/a/a3T4H3irzYkIuZWu
+
 ---
 
 <details>
